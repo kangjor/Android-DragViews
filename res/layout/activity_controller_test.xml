@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	android:orientation="vertical"
+   >
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button 
+	    android:id="@+id/button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="LogIn"
+	    android:onClick="setData"
+	      />
+    <CheckBox 
+	    android:id="@+id/watermelon"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="수박"
+	    android:onClick="setData"
+	      />
+    <RadioGroup 
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        >
+        <RadioButton 
+            android:id="@+id/yes"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="여름휴가참여"
+		    android:onClick="setData"/>
+        <RadioButton 
+            android:id="@+id/no"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="여름휴가불참"
+		    android:onClick="setData"/>
+        
+    </RadioGroup>
+    <ToggleButton
+	    android:id="@+id/togglebutton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textOn="wifi켜기"
+	    android:textOff="wifi끄기"
+	    android:onClick="setData"
+	      />
+    <Spinner 
+        android:id="@+id/spinner"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"   
+	        
+        />
+    
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
